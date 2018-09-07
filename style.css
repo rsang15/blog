@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{   
+    background: url('vintage-clean-dark-brown-texture-background.jpg');
+    text-align: center;      
+}
+.container{
+    width: 1000px;
+    margin: 10px auto 20px;
+    background: url('paper-pattern.jpg') top left repeat;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+}
+div{
+    display: block;
+}
+h1{
+    padding: 20px;
+    text-align: center;
+    color: brown;
+    font-family: sans-serif;
+    margin: auto;
+}
+h2{
+    padding: 20px 5px 5px 5px;
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    margin: auto;
+    position: relative;
+    
+}
+.p1{
+    padding: 10px;
+    text-align: justify;
+    color: black;
+    margin: auto; 
+    font-size: 18px;
+    line-height: inherit;
+}
+#p2{
+    padding: 50px 20px 30px 20px;
+    text-align: justify;
+    color: black;
+    margin: auto; 
+    font-size: 20px;
+    position: relative;
+}
+.navigation {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.navigation li {
+    float: right;
+}
+
+.navigation li a {
+    display: inline-block;
+    color: saddlebrown;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    background-color: saddlebrown;
+    color: white;
+}
+
+.about{
+    position: relative;
+    display: table;
+    width: 100%;   
+}
+section.image {
+    width: 20%;
+    position: absolute;
+    left: 0px;
+    padding-left: 15px;
+}
+section.aboutMe{
+    text-align: center;
+    color: black;
+    float: right;
+    padding: 5px;
+    margin: 10px;
+    width: 65%;
+    position: relative;
+    right: 0px;
+}
+.projects{
+    width: 75%;
+    margin: 20px 20px 20px 60px;
+    padding: 20px 50px 20px 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 30px;
+    position: relative;
+    justify-content: space-between;
+}
+.card{
+    min-height: 100%;
+    padding: 20px 20px 20px 20px;
+    background: white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 0;
+    justify-content: space-between;
+}
+.card article {
+    padding: 5px;
+    display: flex;
+    flex: 1;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 5px;
+    color: brown;
+  
+}
+.card .img{
+    padding-bottom: 70%;
+    background-size: cover;
+    background-position: center center;
+}
+.contact{
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+}
+.contact h3{
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+.contact ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+.contact li{
+    display: inline-block;
+    margin: 0px 5px;
+    padding: 0px;
+}
+.contact li a img{
+    position: relative;
+    border: none;
+    background-position: center;
+}
+.contact li a:hover img{
+    display: block;
+    top: -5px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+}
+
+
+
